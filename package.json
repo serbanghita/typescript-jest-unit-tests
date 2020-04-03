@@ -1,0 +1,29 @@
+{
+  "name": "typescript-jest-unit-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "lint": "tslint --project tsconfig.json",
+    "test": "tsc && jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serbanghita/typescript-jest-unit-tests.git"
+  },
+  "author": "Serban Ghita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serbanghita/typescript-jest-unit-tests/issues"
+  },
+  "homepage": "https://github.com/serbanghita/typescript-jest-unit-tests#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.5",
+    "jest": "^25.2.4",
+    "ts-jest": "^25.3.0",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  }
+}

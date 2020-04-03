@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "strict": true,
+    "moduleResolution": "node",
+    "types": [
+      "jest"
+    ],
+    "esModuleInterop": true,
+    "sourceRoot": "src",
+    "inlineSourceMap": true
+   },
+  "exclude": [
+    "**/__mocks__/*",
+    "test",
+    "report"
+  ],
+  "compileOnSave": true
+}
